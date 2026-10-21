@@ -1,0 +1,1347 @@
+[
+  {
+    "id": "q001",
+    "chapter": "04-what-is-systems-engineering",
+    "question": "Which phrase best captures INCOSE's characterisation of systems engineering?",
+    "options": [
+      "A project management methodology for large engineering programmes",
+      "A transdisciplinary and integrative approach enabling the successful realization, use, and retirement of engineered systems",
+      "A design technique for decomposing hardware into components",
+      "A quality assurance framework for verifying engineered products"
+    ],
+    "answer": 1,
+    "explanation": "INCOSE defines systems engineering as a transdisciplinary and integrative approach covering realization, use, and retirement — the whole life cycle, not just design or management."
+  },
+  {
+    "id": "q002",
+    "chapter": "04-what-is-systems-engineering",
+    "question": "Which statement about committed cost versus expended cost over the life cycle is correct?",
+    "options": [
+      "Both rise together, roughly in proportion",
+      "Most cost is expended early while most is committed late",
+      "Most cost is committed early while most is expended later",
+      "Committed cost is only meaningful after the product baseline is set"
+    ],
+    "answer": 2,
+    "explanation": "The great majority of life cycle cost is committed by concept and early design decisions, while most money is actually spent during production and operations. The gap is the economic argument for front-loading systems engineering."
+  },
+  {
+    "id": "q003",
+    "chapter": "04-what-is-systems-engineering",
+    "question": "Which document plans the technical effort on a project, including process tailoring, reviews, and the approach to requirements and verification?",
+    "options": [
+      "The Project Management Plan",
+      "The Systems Engineering Management Plan (SEMP)",
+      "The Work Breakdown Structure",
+      "The Concept of Operations"
+    ],
+    "answer": 1,
+    "explanation": "The SEMP is the plan for the technical effort. The Project Management Plan covers cost, schedule, and resources."
+  },
+  {
+    "id": "q004",
+    "chapter": "05-systems-thinking",
+    "question": "A test rig used to qualify the system but not delivered to the customer is best described as:",
+    "options": [
+      "A subsystem of the system of interest",
+      "An enabling system",
+      "An interoperating system",
+      "A constituent system"
+    ],
+    "answer": 1,
+    "explanation": "Enabling systems support the life cycle of the system of interest without being part of the delivered system."
+  },
+  {
+    "id": "q005",
+    "chapter": "05-systems-thinking",
+    "question": "Which of the following is an emergent property rather than an aggregate property?",
+    "options": [
+      "Total system mass",
+      "Total parts count",
+      "System safety",
+      "Total procurement cost"
+    ],
+    "answer": 2,
+    "explanation": "Safety arises from interactions among elements, people, and environment and cannot be attributed to any single element. Mass, parts count, and cost are simple aggregates."
+  },
+  {
+    "id": "q006",
+    "chapter": "05-systems-thinking",
+    "question": "Three agencies integrate their independently owned systems. There are recognised shared objectives and a designated manager with resources, but each agency still funds and controls its own system. This is which type of system of systems?",
+    "options": ["Directed", "Acknowledged", "Collaborative", "Virtual"],
+    "answer": 1,
+    "explanation": "Acknowledged SoS have recognised objectives, a designated manager, and resources, but constituent systems retain their own ownership and objectives."
+  },
+  {
+    "id": "q007",
+    "chapter": "05-systems-thinking",
+    "question": "Applying the same set of processes at successively lower levels of the system hierarchy is called:",
+    "options": ["Iteration", "Recursion", "Concurrency", "Tailoring"],
+    "answer": 1,
+    "explanation": "Recursion is application at successive hierarchy levels. Iteration is repeating on the same entity to refine; concurrency is performing activities at the same time."
+  },
+  {
+    "id": "q008",
+    "chapter": "05-systems-thinking",
+    "question": "What distinguishes a system of systems from a complicated single system?",
+    "options": [
+      "Systems of systems always have more elements",
+      "Constituent systems have operational and managerial independence",
+      "Systems of systems are always geographically distributed by contract",
+      "Systems of systems do not exhibit emergent behaviour"
+    ],
+    "answer": 1,
+    "explanation": "Operational independence (each does useful work alone) and managerial independence (each is separately managed and funded) are the defining characteristics."
+  },
+  {
+    "id": "q009",
+    "chapter": "05-systems-thinking",
+    "question": "Which pair correctly distinguishes ConOps from OpsCon?",
+    "options": [
+      "ConOps is system-level from the user's view; OpsCon is organisation-level from the acquirer's view",
+      "ConOps is organisation-level from the acquirer's view; OpsCon is system-level from the user's view",
+      "They are synonyms used in different industries",
+      "ConOps is produced during validation; OpsCon during verification"
+    ],
+    "answer": 1,
+    "explanation": "ConOps is broader and organisational, expressed from the acquirer's or owner's viewpoint. OpsCon describes how the system of interest will be used, from the user's viewpoint."
+  },
+  {
+    "id": "q010",
+    "chapter": "06-life-cycles",
+    "question": "Which two generic life cycle stages are performed concurrently?",
+    "options": [
+      "Concept and Development",
+      "Development and Production",
+      "Utilization and Support",
+      "Support and Retirement"
+    ],
+    "answer": 2,
+    "explanation": "While the system is being used (Utilization), it is simultaneously being maintained and supplied (Support)."
+  },
+  {
+    "id": "q011",
+    "chapter": "06-life-cycles",
+    "question": "A programme organises development into repeated cycles, each beginning by identifying and resolving the largest current risk. Which life cycle model is this?",
+    "options": ["Vee", "Waterfall", "Spiral", "Incremental"],
+    "answer": 2,
+    "explanation": "The spiral model is defined by risk-driven cycles, each of which identifies and resolves the dominant risks before proceeding."
+  },
+  {
+    "id": "q012",
+    "chapter": "06-life-cycles",
+    "question": "Which baseline is typically established at the Preliminary Design Review?",
+    "options": ["Functional baseline", "Allocated baseline", "Product baseline", "Operational baseline"],
+    "answer": 1,
+    "explanation": "The allocated baseline, containing requirements allocated to system elements and their interfaces, is typically established at PDR."
+  },
+  {
+    "id": "q013",
+    "chapter": "06-life-cycles",
+    "question": "A Physical Configuration Audit primarily confirms that:",
+    "options": [
+      "The system meets its specified functional requirements",
+      "The as-built configuration matches the product baseline documentation",
+      "The production line is ready to manufacture at rate",
+      "Operators and support arrangements are ready"
+    ],
+    "answer": 1,
+    "explanation": "PCA is physical: as-built versus documentation. FCA is functional: does the item meet its requirements."
+  },
+  {
+    "id": "q014",
+    "chapter": "06-life-cycles",
+    "question": "Which statement about life cycle stages and processes is correct?",
+    "options": [
+      "Each process is performed exactly once, in its corresponding stage",
+      "Processes are sets of activities applied in any stage, iteratively and concurrently",
+      "Stages are subsets of processes",
+      "Processes may only be applied after the functional baseline is set"
+    ],
+    "answer": 1,
+    "explanation": "Stages are periods of time; processes are activity sets applied across stages iteratively, recursively, and concurrently."
+  },
+  {
+    "id": "q015",
+    "chapter": "06-life-cycles",
+    "question": "The defining feature of the Vee model is:",
+    "options": [
+      "That verification only occurs after implementation is complete",
+      "The correspondence between each level of definition and a matching level of integration and verification",
+      "Short timeboxed increments with customer feedback",
+      "Progressive elimination of infeasible design regions"
+    ],
+    "answer": 1,
+    "explanation": "The Vee's key insight is the horizontal correspondence between definition levels on the left and verification levels on the right, with verification planned when the level is defined."
+  },
+  {
+    "id": "q016",
+    "chapter": "07-standards-and-frameworks",
+    "question": "How many processes does ISO/IEC/IEEE 15288 define, and in how many groups?",
+    "options": ["25 processes in 4 groups", "30 processes in 4 groups", "30 processes in 5 groups", "28 processes in 3 groups"],
+    "answer": 1,
+    "explanation": "30 processes in 4 groups: Agreement (2), Organizational Project-Enabling (6), Technical Management (8), Technical (14)."
+  },
+  {
+    "id": "q017",
+    "chapter": "07-standards-and-frameworks",
+    "question": "Which process group contains Configuration Management?",
+    "options": ["Technical Processes", "Technical Management Processes", "Organizational Project-Enabling Processes", "Agreement Processes"],
+    "answer": 1,
+    "explanation": "Configuration Management is one of the eight technical management processes, despite feeling organisational."
+  },
+  {
+    "id": "q018",
+    "chapter": "07-standards-and-frameworks",
+    "question": "Which of the following is NOT one of the six organizational project-enabling processes?",
+    "options": ["Knowledge Management", "Infrastructure Management", "Information Management", "Portfolio Management"],
+    "answer": 2,
+    "explanation": "Information Management is a technical management process. Knowledge Management is the organisational counterpart."
+  },
+  {
+    "id": "q019",
+    "chapter": "07-standards-and-frameworks",
+    "question": "Which standard is the authoritative reference for requirements engineering, including the characteristics of well-formed requirements?",
+    "options": ["ISO/IEC/IEEE 42010", "ISO/IEC/IEEE 15939", "ISO/IEC/IEEE 29148", "ISO/IEC/IEEE 24748"],
+    "answer": 2,
+    "explanation": "29148 covers requirements engineering. 42010 is architecture description, 15939 measurement, 24748 life cycle management."
+  },
+  {
+    "id": "q020",
+    "chapter": "07-standards-and-frameworks",
+    "question": "Quality Management and Quality Assurance differ in that:",
+    "options": [
+      "Quality Management is a project-level process; Quality Assurance is organisational",
+      "Quality Management is organisational and establishes the quality system; Quality Assurance applies it at project level",
+      "They are the same process under two names",
+      "Quality Assurance is a technical process; Quality Management is a technical management process"
+    ],
+    "answer": 1,
+    "explanation": "Quality Management is an organizational project-enabling process; Quality Assurance is a technical management process applied to the project."
+  },
+  {
+    "id": "q021",
+    "chapter": "07-standards-and-frameworks",
+    "question": "Which standard defines the vocabulary of stakeholders, concerns, viewpoints, and views for describing architectures?",
+    "options": ["ISO 9001", "ISO/IEC/IEEE 42010", "ISO/IEC/IEEE 15288", "ANSI/EIA-649"],
+    "answer": 1,
+    "explanation": "ISO/IEC/IEEE 42010 is the architecture description standard."
+  },
+  {
+    "id": "q022",
+    "chapter": "07-standards-and-frameworks",
+    "question": "How many processes are in the Agreement process group, and what are they?",
+    "options": [
+      "Two: Acquisition and Supply",
+      "Two: Negotiation and Contracting",
+      "Three: Acquisition, Supply, and Delivery",
+      "Two: Acquisition and Portfolio Management"
+    ],
+    "answer": 0,
+    "explanation": "The Agreement group has exactly two processes: Acquisition (acquirer's side) and Supply (supplier's side)."
+  },
+  {
+    "id": "q023",
+    "chapter": "08-concept-definition",
+    "question": "Which process has the purpose of defining the problem or opportunity space and characterising the solution space?",
+    "options": [
+      "Stakeholder Needs and Requirements Definition",
+      "Business or Mission Analysis",
+      "System Requirements Definition",
+      "System Analysis"
+    ],
+    "answer": 1,
+    "explanation": "Business or Mission Analysis frames the problem and characterises candidate solution classes, before commitment to any particular solution."
+  },
+  {
+    "id": "q024",
+    "chapter": "08-concept-definition",
+    "question": "'Percentage of emergency calls responded to within eight minutes' is best classified as a:",
+    "options": ["Measure of Performance", "Measure of Effectiveness", "Technical Performance Measure", "Key Performance Parameter threshold"],
+    "answer": 1,
+    "explanation": "It is operational, stakeholder-facing, and solution-independent — the defining characteristics of a Measure of Effectiveness."
+  },
+  {
+    "id": "q025",
+    "chapter": "08-concept-definition",
+    "question": "A selected system performance parameter tracked over time against a planned profile to predict whether the target will be met is a:",
+    "options": ["MOE", "MOP", "TPM", "KPP"],
+    "answer": 2,
+    "explanation": "A Technical Performance Measure is a MOP tracked over time against a planned profile with tolerance bands."
+  },
+  {
+    "id": "q026",
+    "chapter": "08-concept-definition",
+    "question": "Which process transforms the stakeholder, user-oriented view of desired capabilities into a technical view of a solution?",
+    "options": [
+      "Business or Mission Analysis",
+      "Stakeholder Needs and Requirements Definition",
+      "System Requirements Definition",
+      "Architecture Definition"
+    ],
+    "answer": 2,
+    "explanation": "This is the purpose statement of System Requirements Definition — the crossing point into the solution domain."
+  },
+  {
+    "id": "q027",
+    "chapter": "08-concept-definition",
+    "question": "Which of the following life cycle concepts is most commonly omitted, despite driving the largest share of life cycle cost?",
+    "options": ["Acquisition concept", "Operational concept", "Support concept", "Deployment concept"],
+    "answer": 2,
+    "explanation": "The support/sustainment concept is routinely skipped, yet operations and support usually dominate total life cycle cost."
+  },
+  {
+    "id": "q028",
+    "chapter": "08-concept-definition",
+    "question": "A stakeholder says 'I need a bigger button.' The systems engineer's correct first response is to:",
+    "options": [
+      "Write a requirement for a larger button",
+      "Determine the underlying need by asking why the current control is inadequate",
+      "Reject the request as a design statement",
+      "Escalate it to the change control board"
+    ],
+    "answer": 1,
+    "explanation": "Stakeholders state solutions. Eliciting the underlying need keeps the solution space open — the real issue might be gloved operation, requiring a different control type entirely."
+  },
+  {
+    "id": "q029",
+    "chapter": "09-requirements-engineering",
+    "question": "Which characteristic is violated by: 'The system shall log all events and notify the operator of critical faults'?",
+    "options": ["Verifiable", "Singular", "Feasible", "Conforming"],
+    "answer": 1,
+    "explanation": "It states two capabilities. Singular requires one and only one capability or constraint per requirement."
+  },
+  {
+    "id": "q030",
+    "chapter": "09-requirements-engineering",
+    "question": "Which is NOT one of the characteristics of an individual requirement per ISO/IEC/IEEE 29148 and the INCOSE guidance?",
+    "options": ["Unambiguous", "Singular", "Traceable to cost", "Conforming"],
+    "answer": 2,
+    "explanation": "The characteristics are necessary, appropriate, unambiguous, complete, singular, feasible, verifiable, correct, and conforming. 'Traceable to cost' is not among them."
+  },
+  {
+    "id": "q031",
+    "chapter": "09-requirements-engineering",
+    "question": "A set of requirements is individually feasible but cannot all be achieved together within budget and schedule. Which set characteristic fails?",
+    "options": ["Complete", "Consistent", "Feasible", "Comprehensible"],
+    "answer": 2,
+    "explanation": "Set-level feasibility is a distinct check: individually achievable requirements can be collectively impossible."
+  },
+  {
+    "id": "q032",
+    "chapter": "09-requirements-engineering",
+    "question": "A requirement arising from a design decision rather than directly from a stakeholder need is called:",
+    "options": ["An allocated requirement", "A derived requirement", "A constraint", "An implicit requirement"],
+    "answer": 1,
+    "explanation": "Derived requirements originate from design decisions and must be traced back to the decision that produced them."
+  },
+  {
+    "id": "q033",
+    "chapter": "09-requirements-engineering",
+    "question": "Which requirement attribute most directly enables sound evaluation of a change request years after the requirement was written?",
+    "options": ["Priority", "Rationale", "Status", "Verification level"],
+    "answer": 1,
+    "explanation": "Rationale records why the requirement exists and under what assumptions, which is what makes later change evaluation possible."
+  },
+  {
+    "id": "q034",
+    "chapter": "09-requirements-engineering",
+    "question": "Bidirectional traceability primarily enables which of the following?",
+    "options": [
+      "Automatic generation of test procedures",
+      "Impact analysis, coverage checking, and orphan detection",
+      "Reduction in the total number of requirements",
+      "Elimination of the need for verification planning"
+    ],
+    "answer": 1,
+    "explanation": "Traceability supports impact analysis, coverage checking, orphan detection, and certification evidence."
+  },
+  {
+    "id": "q035",
+    "chapter": "09-requirements-engineering",
+    "question": "'The system shall use a 12 V lead-acid battery.' If the battery type is not genuinely mandated, this requirement's main defect is that it:",
+    "options": [
+      "Is not verifiable",
+      "States a design solution rather than a capability need",
+      "Is not singular",
+      "Uses the wrong modal verb"
+    ],
+    "answer": 1,
+    "explanation": "It specifies the how rather than the what, closing the solution space prematurely. The capability need is an operating duration without external power."
+  },
+  {
+    "id": "q036",
+    "chapter": "09-requirements-engineering",
+    "question": "In requirements work, what does 'requirements verification' mean, as distinct from requirements validation?",
+    "options": [
+      "Testing the built system against the requirements",
+      "Checking that the requirements are well formed against the quality characteristics",
+      "Confirming with stakeholders that the requirements reflect their needs",
+      "Auditing the requirements tool configuration"
+    ],
+    "answer": 1,
+    "explanation": "Requirements verification checks the quality of the requirement statements; requirements validation confirms with stakeholders that they are the right requirements."
+  },
+  {
+    "id": "q037",
+    "chapter": "09-requirements-engineering",
+    "question": "A high and non-decreasing requirement volatility rate late in development is best interpreted as:",
+    "options": [
+      "Evidence of a healthy, responsive process",
+      "A leading indicator of programme trouble",
+      "A normal consequence of agile methods",
+      "An artefact of the requirements tool"
+    ],
+    "answer": 1,
+    "explanation": "Requirement volatility that is not converging late in development is one of the most reliable early warnings of cost and schedule problems."
+  },
+  {
+    "id": "q038",
+    "chapter": "10-architecture-and-design",
+    "question": "In ISO/IEC/IEEE 42010 terms, a specification of the conventions for constructing and using a particular kind of representation is a:",
+    "options": ["View", "Viewpoint", "Model", "Concern"],
+    "answer": 1,
+    "explanation": "A viewpoint is the specification (the template); a view is the actual representation produced according to it."
+  },
+  {
+    "id": "q039",
+    "chapter": "10-architecture-and-design",
+    "question": "The purpose of Architecture Definition includes generating:",
+    "options": [
+      "A single optimal architecture as early as possible",
+      "System architecture alternatives and selecting among them",
+      "Detailed drawings sufficient for manufacture",
+      "The verification matrix"
+    ],
+    "answer": 1,
+    "explanation": "The process explicitly requires generating alternatives and selecting, then expressing the result in views. Producing only one candidate is a failure of the process."
+  },
+  {
+    "id": "q040",
+    "chapter": "10-architecture-and-design",
+    "question": "Which pair correctly distinguishes Architecture Definition from Design Definition?",
+    "options": [
+      "Architecture produces manufacturing detail; design produces concepts",
+      "Architecture defines elements, relationships, and structuring principles; design provides detail sufficient to enable implementation",
+      "Architecture applies only to software; design applies to hardware",
+      "They are performed by the same process in ISO/IEC/IEEE 15288"
+    ],
+    "answer": 1,
+    "explanation": "Architecture is 'what elements and why'; design is 'how each element is built', in enough detail to implement."
+  },
+  {
+    "id": "q041",
+    "chapter": "10-architecture-and-design",
+    "question": "Which decomposition heuristic best reduces the cost of future change?",
+    "options": [
+      "Maximise the number of elements to increase parallelism",
+      "Group things that change together and separate things that change at different rates",
+      "Allocate every function to exactly one physical element",
+      "Minimise the number of suppliers"
+    ],
+    "answer": 1,
+    "explanation": "Aligning module boundaries with rates and sources of change contains the effect of change within modules."
+  },
+  {
+    "id": "q042",
+    "chapter": "10-architecture-and-design",
+    "question": "In a properly conducted trade study, evaluation criteria and weights are established:",
+    "options": [
+      "After scoring the alternatives, to reflect what was learned",
+      "Before evaluating the alternatives",
+      "By the highest-ranking stakeholder at the decision meeting",
+      "Only when the alternatives score within 5% of each other"
+    ],
+    "answer": 1,
+    "explanation": "Defining criteria and weights before evaluation is what keeps the study honest and defensible."
+  },
+  {
+    "id": "q043",
+    "chapter": "10-architecture-and-design",
+    "question": "An N-squared diagram is used primarily to:",
+    "options": [
+      "Estimate project cost from element counts",
+      "Identify and analyse interfaces between system elements",
+      "Sequence verification activities",
+      "Record risk likelihood and consequence"
+    ],
+    "answer": 1,
+    "explanation": "The N² chart places elements on the diagonal and interfaces in off-diagonal cells, making missing or unexpected interfaces visible."
+  },
+  {
+    "id": "q044",
+    "chapter": "10-architecture-and-design",
+    "question": "A functional architecture is best described as:",
+    "options": [
+      "The arrangement of physical components and their connections",
+      "A solution-independent arrangement of functions, their decomposition, and their flows",
+      "The set of interfaces to external systems",
+      "The verification plan expressed as functions"
+    ],
+    "answer": 1,
+    "explanation": "Functional architecture describes what the system does independent of the physical elements that will do it; allocation maps functions to physical elements."
+  },
+  {
+    "id": "q045",
+    "chapter": "10-architecture-and-design",
+    "question": "A trade study produces a winner by a 2% margin on the weighted score. What must be done before recommending it?",
+    "options": [
+      "Re-weight the criteria until the margin exceeds 10%",
+      "Perform sensitivity analysis and report the robustness of the result",
+      "Eliminate the closest competitor and rescore",
+      "Escalate to the change control board"
+    ],
+    "answer": 1,
+    "explanation": "Sensitivity analysis determines whether small changes in weights or scores flip the outcome. A non-robust result must be reported as such."
+  },
+  {
+    "id": "q046",
+    "chapter": "11-realization",
+    "question": "Which verification method involves operating the system under controlled conditions and collecting quantitative data against defined criteria?",
+    "options": ["Inspection", "Analysis", "Demonstration", "Test"],
+    "answer": 3,
+    "explanation": "Test means controlled conditions plus quantitative measured data. Demonstration is qualitative observation without instrumented data."
+  },
+  {
+    "id": "q047",
+    "chapter": "11-realization",
+    "question": "A structural margin is proven using finite element modelling because a destructive physical test is impractical. Which verification method is this?",
+    "options": ["Test", "Analysis", "Demonstration", "Inspection"],
+    "answer": 1,
+    "explanation": "Analysis covers calculation, modelling, simulation, and similarity to previously qualified designs."
+  },
+  {
+    "id": "q048",
+    "chapter": "11-realization",
+    "question": "Which of the following is NOT one of the four standard verification methods?",
+    "options": ["Inspection", "Analysis", "Certification", "Demonstration"],
+    "answer": 2,
+    "explanation": "The four are inspection, analysis, demonstration, and test. Certification is a formal attestation by an authority, which uses verification evidence."
+  },
+  {
+    "id": "q049",
+    "chapter": "11-realization",
+    "question": "Validation differs from verification principally in that validation:",
+    "options": [
+      "Is performed by an independent organisation",
+      "Compares the system against stakeholder needs and intended use in the operational environment",
+      "Occurs only on software elements",
+      "Uses only the test method"
+    ],
+    "answer": 1,
+    "explanation": "Verification is against specified requirements; validation is against stakeholder needs and intended use in the real environment."
+  },
+  {
+    "id": "q050",
+    "chapter": "11-realization",
+    "question": "Which is the correct process order in ISO/IEC/IEEE 15288?",
+    "options": [
+      "Integration, Validation, Verification, Transition",
+      "Integration, Verification, Transition, Validation",
+      "Verification, Validation, Integration, Transition",
+      "Transition, Integration, Verification, Validation"
+    ],
+    "answer": 1,
+    "explanation": "Verification precedes Transition; Validation follows Transition, because validation occurs in the operational environment."
+  },
+  {
+    "id": "q051",
+    "chapter": "11-realization",
+    "question": "Implementation and Integration differ in that Implementation:",
+    "options": [
+      "Assembles multiple elements into a system",
+      "Realises a single specified system element",
+      "Verifies the assembled system",
+      "Produces the architecture views"
+    ],
+    "answer": 1,
+    "explanation": "Implementation realises one element; Integration synthesises realised elements so their interactions function."
+  },
+  {
+    "id": "q052",
+    "chapter": "11-realization",
+    "question": "Which integration strategy makes fault diagnosis easiest?",
+    "options": [
+      "Big bang integration of all elements simultaneously",
+      "Incremental integration of one element at a time onto a working baseline",
+      "Deferring all integration until after system verification",
+      "Integrating in order of supplier delivery regardless of risk"
+    ],
+    "answer": 1,
+    "explanation": "Adding one element at a time keeps the number of simultaneous unknowns at one, so a new failure has one obvious suspect."
+  },
+  {
+    "id": "q053",
+    "chapter": "11-realization",
+    "question": "A system passes all specified acceptance tests but operators find it unusable in their actual workflow. This most likely indicates a failure of:",
+    "options": [
+      "Verification",
+      "The requirements, revealed by validation",
+      "Configuration management",
+      "Integration"
+    ],
+    "answer": 1,
+    "explanation": "Meeting all requirements while failing the need means the requirements were wrong. Validation failures are usually requirements failures."
+  },
+  {
+    "id": "q054",
+    "chapter": "11-realization",
+    "question": "Transition includes all of the following EXCEPT:",
+    "options": [
+      "Installation and site preparation",
+      "Training operators and maintainers",
+      "Defining the system requirements",
+      "Migrating data from a legacy system"
+    ],
+    "answer": 2,
+    "explanation": "Requirements definition is a much earlier technical process. Transition establishes the capability to provide services in the operational environment."
+  },
+  {
+    "id": "q055",
+    "chapter": "11-realization",
+    "question": "An authorised departure from a requirement granted before the item is produced is called a:",
+    "options": ["Waiver", "Deviation", "Non-conformance", "Change request"],
+    "answer": 1,
+    "explanation": "A deviation is granted before production; a waiver accepts a non-conforming item after it has been produced."
+  },
+  {
+    "id": "q056",
+    "chapter": "12-operation-to-retirement",
+    "question": "Inherent availability is calculated as:",
+    "options": [
+      "MTBF / MTTR",
+      "MTBF / (MTBF + MTTR)",
+      "MTTR / (MTBF + MTTR)",
+      "1 − (MTTR / MTBF)"
+    ],
+    "answer": 1,
+    "explanation": "Ai = MTBF / (MTBF + MTTR), considering corrective maintenance only."
+  },
+  {
+    "id": "q057",
+    "chapter": "12-operation-to-retirement",
+    "question": "Operational availability differs from inherent availability by additionally accounting for:",
+    "options": [
+      "Software defects",
+      "Administrative and logistics delay time",
+      "Design margin",
+      "Verification coverage"
+    ],
+    "answer": 1,
+    "explanation": "Operational availability includes waiting for spares, technicians, and authorisations — availability is a supply chain property as well as a design property."
+  },
+  {
+    "id": "q058",
+    "chapter": "12-operation-to-retirement",
+    "question": "Modifying a system so it continues to work after its operating environment changes — for example a new interfacing system or regulation — is which type of maintenance?",
+    "options": ["Corrective", "Preventive", "Adaptive", "Perfective"],
+    "answer": 2,
+    "explanation": "Adaptive maintenance responds to changes in the environment. Perfective maintenance improves performance or maintainability."
+  },
+  {
+    "id": "q059",
+    "chapter": "12-operation-to-retirement",
+    "question": "The Disposal process includes which of the following?",
+    "options": [
+      "Deactivation, removal, destruction or recycling, and site remediation",
+      "Only the physical destruction of hardware",
+      "Only the transfer of the system to a new owner",
+      "Archiving requirements documents and nothing further"
+    ],
+    "answer": 0,
+    "explanation": "Disposal covers deactivation, removal, destruction/recycling/storage, environmental remediation, and records — plus data destruction obligations."
+  },
+  {
+    "id": "q060",
+    "chapter": "12-operation-to-retirement",
+    "question": "DMSMS refers to:",
+    "options": [
+      "A maintenance scheduling algorithm",
+      "Diminishing manufacturing sources and material shortages — obsolescence",
+      "A digital modelling standard",
+      "A safety severity classification"
+    ],
+    "answer": 1,
+    "explanation": "DMSMS is the obsolescence problem faced by long-lived systems whose original parts cease to be manufactured."
+  },
+  {
+    "id": "q061",
+    "chapter": "13-technical-management",
+    "question": "Which of the following is NOT one of the eight technical management processes?",
+    "options": ["Decision Management", "Measurement", "Knowledge Management", "Quality Assurance"],
+    "answer": 2,
+    "explanation": "Knowledge Management is an organizational project-enabling process. The eight are Project Planning, Project Assessment and Control, Decision Management, Risk Management, Configuration Management, Information Management, Measurement, and Quality Assurance."
+  },
+  {
+    "id": "q062",
+    "chapter": "13-technical-management",
+    "question": "A project reports EV = 800, PV = 1000, AC = 900. What is the situation?",
+    "options": [
+      "Ahead of schedule and under budget",
+      "Behind schedule and over budget",
+      "Behind schedule but under budget",
+      "On schedule and over budget"
+    ],
+    "answer": 1,
+    "explanation": "SV = 800 − 1000 = −200 (behind schedule); CV = 800 − 900 = −100 (over budget). SPI = 0.8 and CPI ≈ 0.89, both below 1.0."
+  },
+  {
+    "id": "q063",
+    "chapter": "13-technical-management",
+    "question": "Which formula gives the Cost Performance Index?",
+    "options": ["EV / PV", "EV / AC", "AC / EV", "PV − AC"],
+    "answer": 1,
+    "explanation": "CPI = EV / AC. SPI = EV / PV."
+  },
+  {
+    "id": "q064",
+    "chapter": "13-technical-management",
+    "question": "A supplier has already announced a six-week delay to a critical delivery. In risk management terms this is:",
+    "options": ["A risk with high likelihood", "An issue", "An opportunity", "A residual risk"],
+    "answer": 1,
+    "explanation": "An event that has already occurred is an issue, not a risk. It is managed and resolved rather than assessed for probability."
+  },
+  {
+    "id": "q065",
+    "chapter": "13-technical-management",
+    "question": "Which of the following is NOT one of the four standard risk handling strategies?",
+    "options": ["Avoid", "Transfer", "Escalate", "Accept"],
+    "answer": 2,
+    "explanation": "The four are Avoid, Transfer/Share, Mitigate/Control, and Accept. Escalation is a reporting action, not a handling strategy."
+  },
+  {
+    "id": "q066",
+    "chapter": "13-technical-management",
+    "question": "The four functions of configuration management are:",
+    "options": [
+      "Planning, execution, monitoring, closure",
+      "Identification, change management, status accounting, verification and audit",
+      "Baselining, versioning, branching, merging",
+      "Requirements, design, build, test"
+    ],
+    "answer": 1,
+    "explanation": "Configuration identification, configuration change management, configuration status accounting, and configuration verification and audit."
+  },
+  {
+    "id": "q067",
+    "chapter": "13-technical-management",
+    "question": "In the measurement model of ISO/IEC/IEEE 15939, a measurement programme should begin with:",
+    "options": [
+      "Selecting the data that is easiest to collect",
+      "Identifying the information need that supports a decision",
+      "Choosing a dashboard tool",
+      "Defining base measures"
+    ],
+    "answer": 1,
+    "explanation": "The model runs from information need to measurable concept to base measures, derived measures, and indicators. Starting from available data is the anti-pattern."
+  },
+  {
+    "id": "q068",
+    "chapter": "13-technical-management",
+    "question": "Which describes a derived measure?",
+    "options": [
+      "A single attribute measured directly",
+      "A function of two or more base measures",
+      "An evaluation with a target used for decision-making",
+      "The information need being addressed"
+    ],
+    "answer": 1,
+    "explanation": "Base measures are direct; derived measures combine two or more base measures; indicators support decisions, usually against a threshold."
+  },
+  {
+    "id": "q069",
+    "chapter": "13-technical-management",
+    "question": "The 100% rule applied to a Work Breakdown Structure means:",
+    "options": [
+      "All work packages must be 100% complete before the next level starts",
+      "The WBS captures all of the scope and nothing outside it, with each element appearing once",
+      "100% of the budget must be allocated to work packages before kickoff",
+      "Every requirement must map to 100% of the WBS elements"
+    ],
+    "answer": 1,
+    "explanation": "The WBS includes 100% of the work defined by the scope, decomposed without duplication or omission."
+  },
+  {
+    "id": "q070",
+    "chapter": "13-technical-management",
+    "question": "The primary reason to record decision rationale is to:",
+    "options": [
+      "Satisfy audit requirements",
+      "Allow later evaluation of whether the assumptions still hold, without re-arguing the decision",
+      "Assign responsibility if the decision proves wrong",
+      "Increase the length of the decision report"
+    ],
+    "answer": 1,
+    "explanation": "Recorded rationale with assumptions lets future teams check whether conditions have changed, rather than relitigating from scratch with worse information."
+  },
+  {
+    "id": "q071",
+    "chapter": "13-technical-management",
+    "question": "Which is the best-formed risk statement?",
+    "options": [
+      "Sensor risk.",
+      "The sensor might be late.",
+      "If sensor qualification slips past March, then integration testing cannot start on schedule, resulting in up to eight weeks of delivery delay.",
+      "The sensor supplier is unreliable and should be replaced."
+    ],
+    "answer": 2,
+    "explanation": "A good risk statement follows the if/then/resulting-in structure, identifying cause, event, and consequence."
+  },
+  {
+    "id": "q072",
+    "chapter": "13-technical-management",
+    "question": "Quality Assurance is distinguished from Quality Control in that QA is:",
+    "options": [
+      "Product-oriented and detective",
+      "Process-oriented and preventive",
+      "Performed only by the customer",
+      "Applicable only to software"
+    ],
+    "answer": 1,
+    "explanation": "QA is process-oriented and preventive; QC is product-oriented and detective, inspecting and testing actual outputs."
+  },
+  {
+    "id": "q073",
+    "chapter": "13-technical-management",
+    "question": "Management reserve differs from contingency in that management reserve typically covers:",
+    "options": [
+      "Identified risks with assessed likelihood",
+      "Unknown-unknowns not captured in the risk register",
+      "Supplier penalty payments",
+      "Approved scope changes only"
+    ],
+    "answer": 1,
+    "explanation": "Contingency generally covers identified risks; management reserve covers unforeseen events outside the register."
+  },
+  {
+    "id": "q074",
+    "chapter": "14-agreement-and-organizational",
+    "question": "The Acquisition and Supply processes belong to which group?",
+    "options": ["Technical Processes", "Technical Management Processes", "Agreement Processes", "Organizational Project-Enabling Processes"],
+    "answer": 2,
+    "explanation": "They are the two Agreement processes, representing the acquirer's and supplier's sides of the same relationship."
+  },
+  {
+    "id": "q075",
+    "chapter": "14-agreement-and-organizational",
+    "question": "Which organisational process decides which projects are initiated, sustained, redirected, or terminated?",
+    "options": ["Project Planning", "Portfolio Management", "Life Cycle Model Management", "Infrastructure Management"],
+    "answer": 1,
+    "explanation": "Portfolio Management governs the set of projects against organisational strategy. Project Planning plans the technical effort within one project."
+  },
+  {
+    "id": "q076",
+    "chapter": "14-agreement-and-organizational",
+    "question": "Which organisational process maintains the organisation's standard processes, life cycle models, and tailoring guidance?",
+    "options": ["Knowledge Management", "Quality Management", "Life Cycle Model Management", "Human Resource Management"],
+    "answer": 2,
+    "explanation": "Life Cycle Model Management defines, maintains, and assures availability of policies, processes, and models for the organisation's projects."
+  },
+  {
+    "id": "q077",
+    "chapter": "14-agreement-and-organizational",
+    "question": "Failing to secure data rights during acquisition most directly threatens the organisation's future ability to:",
+    "options": [
+      "Pass the acceptance test",
+      "Maintain, modify, and re-compete the system",
+      "Establish the functional baseline",
+      "Perform the Physical Configuration Audit"
+    ],
+    "answer": 1,
+    "explanation": "Without design data, interface definitions, and source, the acquirer is locked into one supplier for the system's whole life."
+  },
+  {
+    "id": "q078",
+    "chapter": "14-agreement-and-organizational",
+    "question": "Knowledge Management and Information Management differ in that Knowledge Management:",
+    "options": [
+      "Handles a single project's information items",
+      "Is organisational and focused on reuse of knowledge and assets across projects",
+      "Is a technical process applied to system elements",
+      "Governs configuration baselines"
+    ],
+    "answer": 1,
+    "explanation": "Knowledge Management is organizational project-enabling and cross-project; Information Management is technical management and handles a project's designated information items."
+  },
+  {
+    "id": "q079",
+    "chapter": "14-agreement-and-organizational",
+    "question": "Which framework would you use to assess and plan the development of an individual's systems engineering capability?",
+    "options": [
+      "The INCOSE Systems Engineering Competency Framework",
+      "ISO/IEC/IEEE 15939",
+      "The Zachman Framework",
+      "ANSI/EIA-649"
+    ],
+    "answer": 0,
+    "explanation": "The INCOSE Systems Engineering Competency Framework defines competencies and proficiency levels, and supports both individual development and organisational capability planning."
+  },
+  {
+    "id": "q080",
+    "chapter": "15-tailoring-and-application",
+    "question": "Tailoring the life cycle processes is best described as:",
+    "options": [
+      "An exception requiring customer approval in all cases",
+      "An expected activity of adapting processes to project context, with recorded justification",
+      "A way to reduce documentation without changing process rigour",
+      "Only permitted for projects below a defined budget threshold"
+    ],
+    "answer": 1,
+    "explanation": "The standard explicitly expects tailoring — deleting, adding, or modifying activities to suit context, with the decisions recorded and justified."
+  },
+  {
+    "id": "q081",
+    "chapter": "15-tailoring-and-application",
+    "question": "Which factor most strongly pushes a project toward greater process rigour?",
+    "options": [
+      "A small, co-located, experienced team",
+      "Severe consequences of failure and a certification requirement",
+      "A short duration",
+      "Stable, well-understood technology in a repeat build"
+    ],
+    "answer": 1,
+    "explanation": "Consequence of failure and regulatory/certification demands are among the strongest drivers of increased rigour."
+  },
+  {
+    "id": "q082",
+    "chapter": "15-tailoring-and-application",
+    "question": "When systems engineering is applied to a service system rather than a product system, which shift is most characteristic?",
+    "options": [
+      "Physical architecture becomes the dominant concern",
+      "People and processes become primary system elements and validation becomes continuous",
+      "Requirements are no longer needed",
+      "Configuration management ceases to apply"
+    ],
+    "answer": 1,
+    "explanation": "In service systems, staffing, training, and procedures are design parameters, and service performance is monitored continuously rather than validated once."
+  },
+  {
+    "id": "q083",
+    "chapter": "15-tailoring-and-application",
+    "question": "In a product line, the places in the architecture where planned differences between products are permitted are called:",
+    "options": ["Core assets", "Variation points", "Configuration items", "Interfaces"],
+    "answer": 1,
+    "explanation": "Variation points are the defined locations where variability is realised, against a backdrop of commonality and shared core assets."
+  },
+  {
+    "id": "q084",
+    "chapter": "16-mbse-digital-engineering",
+    "question": "The defining shift in model-based systems engineering is that:",
+    "options": [
+      "Diagrams replace text in all documents",
+      "The authoritative description of the system becomes a model from which views are generated",
+      "Simulation replaces physical testing entirely",
+      "Requirements are no longer written"
+    ],
+    "answer": 1,
+    "explanation": "MBSE makes an integrated model the source of truth, with documents becoming generated views rather than the authority."
+  },
+  {
+    "id": "q085",
+    "chapter": "16-mbse-digital-engineering",
+    "question": "Which of the following is a SysML structural diagram?",
+    "options": ["Activity diagram", "State machine diagram", "Internal block diagram", "Use case diagram"],
+    "answer": 2,
+    "explanation": "Structural: block definition, internal block, package, parametric. Behavioural: activity, sequence, state machine, use case."
+  },
+  {
+    "id": "q086",
+    "chapter": "16-mbse-digital-engineering",
+    "question": "How many diagram types does SysML v1 define?",
+    "options": ["Seven", "Nine", "Twelve", "Fourteen"],
+    "answer": 1,
+    "explanation": "Nine: four structural, four behavioural, and the requirement diagram."
+  },
+  {
+    "id": "q087",
+    "chapter": "16-mbse-digital-engineering",
+    "question": "Which two SysML diagram types are the distinctive systems engineering additions relative to UML?",
+    "options": [
+      "Sequence and activity diagrams",
+      "Requirement and parametric diagrams",
+      "Package and use case diagrams",
+      "State machine and internal block diagrams"
+    ],
+    "answer": 1,
+    "explanation": "The requirement diagram brings requirements into the model as first-class elements; the parametric diagram binds constraints and equations for analysis."
+  },
+  {
+    "id": "q088",
+    "chapter": "16-mbse-digital-engineering",
+    "question": "A digital twin is best defined as:",
+    "options": [
+      "Any simulation model of a design",
+      "A virtual representation of a specific physical instance, synchronised with it through operational data",
+      "A backup copy of the system model",
+      "A duplicate physical prototype used for testing"
+    ],
+    "answer": 1,
+    "explanation": "A twin tracks a particular serial-numbered asset in service. A model represents a design; the twin represents the individual thing."
+  },
+  {
+    "id": "q089",
+    "chapter": "16-mbse-digital-engineering",
+    "question": "OOSEM, Harmony-SE, and ARCADIA are examples of:",
+    "options": ["Modelling languages", "MBSE methodologies", "Architecture frameworks", "Simulation tools"],
+    "answer": 1,
+    "explanation": "They are methodologies — they prescribe what to do and in what order — as distinct from languages such as SysML and from tools."
+  },
+  {
+    "id": "q090",
+    "chapter": "16-mbse-digital-engineering",
+    "question": "Validating a model means confirming that:",
+    "options": [
+      "The model is implemented without coding errors",
+      "The model represents reality well enough for its intended purpose",
+      "The model is under configuration control",
+      "The model uses the approved notation"
+    ],
+    "answer": 1,
+    "explanation": "Verification asks whether the model is built correctly; validation asks whether it represents reality adequately for the purpose, within a stated domain of applicability."
+  },
+  {
+    "id": "q091",
+    "chapter": "17-agile-and-lean",
+    "question": "Which characteristic of a programme most limits the direct application of short agile iterations?",
+    "options": [
+      "A large number of stakeholders",
+      "Long-lead custom hardware with high change costs",
+      "Use of model-based systems engineering",
+      "A geographically distributed team"
+    ],
+    "answer": 1,
+    "explanation": "Physical items with long lead times and expensive change cannot be re-spun every iteration, which is why dual-cadence approaches are used."
+  },
+  {
+    "id": "q092",
+    "chapter": "17-agile-and-lean",
+    "question": "An architecture runway refers to:",
+    "options": [
+      "The physical layout of a test facility",
+      "Architectural foundation built ahead of need so future increments do not require rework",
+      "The sequence of architecture reviews",
+      "The time between CDR and first build"
+    ],
+    "answer": 1,
+    "explanation": "Investing in architectural foundation ahead of the increments that will need it avoids repeated architectural rework in iterative development."
+  },
+  {
+    "id": "q093",
+    "chapter": "17-agile-and-lean",
+    "question": "Which is one of the five lean principles?",
+    "options": ["Maximise utilisation of every resource", "Establish pull", "Batch work for efficiency", "Centralise all decisions"],
+    "answer": 1,
+    "explanation": "The five are: specify value, map the value stream, create flow, establish pull, pursue perfection."
+  },
+  {
+    "id": "q094",
+    "chapter": "17-agile-and-lean",
+    "question": "Integrated Product and Process Development is characterised by:",
+    "options": [
+      "Sequential handover of the design to manufacturing after CDR",
+      "Concurrent development of the product and the processes that will produce and support it, by cross-functional teams",
+      "Outsourcing production planning to the supply chain",
+      "Separating product and process engineering to avoid conflicts of interest"
+    ],
+    "answer": 1,
+    "explanation": "IPPD develops product and process together using Integrated Product Teams containing all relevant disciplines."
+  },
+  {
+    "id": "q095",
+    "chapter": "17-agile-and-lean",
+    "question": "Set-based design differs from point-based design in that it:",
+    "options": [
+      "Selects a single concept as early as possible and refines it",
+      "Keeps multiple options alive and progressively eliminates infeasible regions",
+      "Eliminates the need for trade studies",
+      "Applies only to software development"
+    ],
+    "answer": 1,
+    "explanation": "Set-based design defers commitment, narrowing the design space by eliminating what is shown to be infeasible, at the cost of carrying parallel work longer."
+  },
+  {
+    "id": "q096",
+    "chapter": "17-agile-and-lean",
+    "question": "TRL 9 corresponds to:",
+    "options": [
+      "Basic principles observed and reported",
+      "Component validation in a laboratory environment",
+      "System prototype demonstration in a relevant environment",
+      "Actual system proven through successful operations"
+    ],
+    "answer": 3,
+    "explanation": "The TRL scale runs 1 to 9, ending with the actual system proven in operational use."
+  },
+  {
+    "id": "q097",
+    "chapter": "18-specialty-engineering",
+    "question": "FMEA and FTA differ principally in that FMEA is:",
+    "options": [
+      "Top-down and deductive, while FTA is bottom-up and inductive",
+      "Bottom-up and inductive, while FTA is top-down and deductive",
+      "Used only for software, while FTA is used only for hardware",
+      "Quantitative, while FTA is always qualitative"
+    ],
+    "answer": 1,
+    "explanation": "FMEA starts from component failure modes and works up to effects. FTA starts from an undesired top event and works down to causes."
+  },
+  {
+    "id": "q098",
+    "chapter": "18-specialty-engineering",
+    "question": "In the safety order of precedence for risk mitigation, which control is applied LAST?",
+    "options": [
+      "Eliminate the hazard by design",
+      "Incorporate engineered safety features",
+      "Provide warning devices",
+      "Provide procedures and training"
+    ],
+    "answer": 3,
+    "explanation": "Procedures and training are the weakest controls and come last; designing the hazard out is always preferred."
+  },
+  {
+    "id": "q099",
+    "chapter": "18-specialty-engineering",
+    "question": "Redundant identical channels running the same software provide no protection against:",
+    "options": [
+      "Random hardware failure",
+      "A common-mode software design error",
+      "Single-channel power loss",
+      "Component wear-out"
+    ],
+    "answer": 1,
+    "explanation": "Redundancy protects against random failure but not design error, which is identical in every channel. Dissimilar redundancy addresses this."
+  },
+  {
+    "id": "q100",
+    "chapter": "18-specialty-engineering",
+    "question": "Which of the following is NOT one of the recognised Human Systems Integration domains?",
+    "options": ["Manpower", "Habitability", "Configuration control", "Occupational health"],
+    "answer": 2,
+    "explanation": "HSI domains are manpower, personnel, training, human factors engineering, environment, safety, occupational health, habitability, and survivability."
+  },
+  {
+    "id": "q101",
+    "chapter": "18-specialty-engineering",
+    "question": "Resilience is best distinguished from reliability in that resilience concerns:",
+    "options": [
+      "The probability of not failing over a stated time",
+      "The ability to anticipate, withstand, recover from, and adapt to disruption",
+      "The ease of repair after failure",
+      "The absence of security vulnerabilities"
+    ],
+    "answer": 1,
+    "explanation": "Reliability is about not failing; resilience is about continuing to deliver value despite failure and disruption."
+  },
+  {
+    "id": "q102",
+    "chapter": "18-specialty-engineering",
+    "question": "Cost as an Independent Variable (CAIV) means:",
+    "options": [
+      "Cost is estimated after the design is complete",
+      "Cost is treated as a fixed constraint against which performance is traded",
+      "Cost is excluded from trade studies to avoid bias",
+      "Costs are allocated equally across subsystems"
+    ],
+    "answer": 1,
+    "explanation": "CAIV inverts the usual practice: cost is held fixed as a constraint and performance requirements are traded to fit within it."
+  },
+  {
+    "id": "q103",
+    "chapter": "18-specialty-engineering",
+    "question": "Why can characteristics such as safety, security, and usability not be allocated to a single system element?",
+    "options": [
+      "Because they are not verifiable",
+      "Because they are emergent properties arising from interactions across the whole system",
+      "Because they are covered by separate contracts",
+      "Because they are always the customer's responsibility"
+    ],
+    "answer": 1,
+    "explanation": "They emerge from the interactions of elements, people, procedures, and environment, so they must be engineered and verified at system level."
+  },
+  {
+    "id": "q104",
+    "chapter": "18-specialty-engineering",
+    "question": "STRIDE is used in security engineering for:",
+    "options": ["Estimating remediation cost", "Threat modelling and enumeration", "Measuring encryption strength", "Classifying safety severity"],
+    "answer": 1,
+    "explanation": "STRIDE enumerates Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, and Elevation of privilege."
+  },
+  {
+    "id": "q105",
+    "chapter": "03-exam-strategy",
+    "question": "Information Management and Knowledge Management are most reliably distinguished by:",
+    "options": [
+      "Their process groups: technical management and organizational project-enabling respectively",
+      "Whether they apply to hardware or software",
+      "Which life cycle stage they occur in",
+      "Whether they are mandatory or optional"
+    ],
+    "answer": 0,
+    "explanation": "Information Management is technical management (this project's information items); Knowledge Management is organizational project-enabling (reuse across the organisation)."
+  },
+  {
+    "id": "q106",
+    "chapter": "03-exam-strategy",
+    "question": "Which is the correct ordering of these processes in the standard?",
+    "options": [
+      "Integration → Validation → Verification → Transition",
+      "Integration → Verification → Transition → Validation",
+      "Verification → Integration → Validation → Transition",
+      "Transition → Verification → Integration → Validation"
+    ],
+    "answer": 1,
+    "explanation": "Verification against the specification precedes Transition; Validation follows Transition because it happens in the operational environment."
+  },
+  {
+    "id": "q107",
+    "chapter": "03-exam-strategy",
+    "question": "Which measure is stakeholder-facing and solution-independent?",
+    "options": ["MOP", "MOE", "TPM", "Base measure"],
+    "answer": 1,
+    "explanation": "A Measure of Effectiveness is operational and must be statable before any solution is chosen."
+  },
+  {
+    "id": "q108",
+    "chapter": "03-exam-strategy",
+    "question": "A supplier operates a prototype in front of the customer, who observes that it performs the required function. No instrumentation or measured data is used. Which verification method is this?",
+    "options": ["Test", "Demonstration", "Inspection", "Analysis"],
+    "answer": 1,
+    "explanation": "Operating and observing qualitatively, without quantitative data, is demonstration."
+  },
+  {
+    "id": "q109",
+    "chapter": "02-certification-landscape",
+    "question": "Which certification level is designed for engineers who know the body of knowledge but do not yet have years of systems engineering experience?",
+    "options": ["ASEP", "CSEP", "ESEP", "CSEP-Acq"],
+    "answer": 0,
+    "explanation": "ASEP is the entry level: INCOSE membership, the knowledge exam, and an application, without a heavy experience requirement."
+  },
+  {
+    "id": "q110",
+    "chapter": "02-certification-landscape",
+    "question": "The SEP knowledge exam questions are drawn from:",
+    "options": [
+      "ISO/IEC/IEEE 15288 only",
+      "The INCOSE Systems Engineering Handbook",
+      "The candidate's own project documentation",
+      "A published bank of defence acquisition standards"
+    ],
+    "answer": 1,
+    "explanation": "The exam is based on the INCOSE Systems Engineering Handbook, which is why confirming the current edition before studying is essential."
+  },
+  {
+    "id": "q111",
+    "chapter": "02-certification-landscape",
+    "question": "Which level of INCOSE certification is typically awarded on the strength of the application and review rather than an examination?",
+    "options": ["ASEP", "CSEP", "ESEP", "All levels require the exam"],
+    "answer": 2,
+    "explanation": "ESEP recognises expert-level practice and contribution to the profession, assessed through extensive documentation and references."
+  },
+  {
+    "id": "q112",
+    "chapter": "19-on-the-job-playbook",
+    "question": "Which artefact most quickly reveals interfaces that nobody has documented?",
+    "options": ["The Work Breakdown Structure", "An N-squared diagram built with each team", "The risk register", "The verification matrix"],
+    "answer": 1,
+    "explanation": "Building the N² diagram by asking each team what crosses each boundary surfaces both missing interfaces and disagreements about existing ones."
+  },
+  {
+    "id": "q113",
+    "chapter": "19-on-the-job-playbook",
+    "question": "Which is the strongest sign that a technical review is genuine rather than theatre?",
+    "options": [
+      "Senior management attends",
+      "Slides are professionally produced",
+      "Entry and exit criteria are defined in advance and 'not yet' is a possible outcome",
+      "The action list is long"
+    ],
+    "answer": 2,
+    "explanation": "A review where the outcome is predetermined is a status meeting. Defined criteria and a genuine possibility of 'no' are what make it a control point."
+  },
+  {
+    "id": "q114",
+    "chapter": "19-on-the-job-playbook",
+    "question": "Which statement is most likely to change a technical decision?",
+    "options": [
+      "I'm concerned the design is getting too heavy.",
+      "Mass margin has fallen from 12% to 4% over five months; at this rate we breach the limit in September.",
+      "We should really look at mass again.",
+      "Other projects have had mass problems."
+    ],
+    "answer": 1,
+    "explanation": "Quantified trend data with a projected consequence and date is what converts concern into action."
+  },
+  {
+    "id": "q115",
+    "chapter": "20-study-plan",
+    "question": "Once you have covered all the material, why are mixed-topic question sets more valuable than single-chapter drilling?",
+    "options": [
+      "They take less time",
+      "They train discrimination between similar concepts, which is what the exam tests",
+      "They contain harder questions",
+      "They avoid repetition of the same answers"
+    ],
+    "answer": 1,
+    "explanation": "The exam concentrates on boundaries between similar concepts. Mixed sets force you to distinguish, whereas single-topic drilling lets context give away the answer."
+  },
+  {
+    "id": "q116",
+    "chapter": "20-study-plan",
+    "question": "For every practice question answered incorrectly, the most valuable review action is to write:",
+    "options": [
+      "The correct answer letter",
+      "Why the correct answer is correct and, specifically, why your answer was wrong",
+      "A summary of the whole chapter",
+      "A new question on the same topic"
+    ],
+    "answer": 1,
+    "explanation": "Articulating why your answer was wrong identifies the specific misconception, which is where the learning is."
+  },
+  {
+    "id": "q117",
+    "chapter": "21-glossary",
+    "question": "A configuration item is best defined as:",
+    "options": [
+      "An approved reference state of a set of items",
+      "An entity designated for configuration management and treated as a single unit",
+      "A change request awaiting approval",
+      "A document under version control"
+    ],
+    "answer": 1,
+    "explanation": "A baseline is the approved reference state; a configuration item is the entity placed under configuration control."
+  },
+  {
+    "id": "q118",
+    "chapter": "21-glossary",
+    "question": "Which term describes a structured, documented argument supported by evidence that a system is acceptably safe for a given application in a given environment?",
+    "options": ["Hazard log", "Safety case", "Preliminary hazard analysis", "Fault tree"],
+    "answer": 1,
+    "explanation": "A safety case is the overall evidenced argument; the hazard log and analyses are inputs to it."
+  },
+  {
+    "id": "q119",
+    "chapter": "21-glossary",
+    "question": "An Authoritative Source of Truth in digital engineering refers to:",
+    "options": [
+      "The signed contract between acquirer and supplier",
+      "One governed, trusted source for each piece of system data",
+      "The most recent version of the requirements document",
+      "The certification authority's records"
+    ],
+    "answer": 1,
+    "explanation": "The ASoT concept avoids divergence by establishing a single governed source for each data element, rather than many copies."
+  },
+  {
+    "id": "q120",
+    "chapter": "21-glossary",
+    "question": "Float (or slack) in a schedule is:",
+    "options": [
+      "Budget held back for unforeseen events",
+      "How long an activity can slip without delaying the project",
+      "The difference between planned and earned value",
+      "The margin held on a technical parameter"
+    ],
+    "answer": 1,
+    "explanation": "Float is schedule flexibility for a non-critical activity. Activities on the critical path have zero float."
+  }
+]
